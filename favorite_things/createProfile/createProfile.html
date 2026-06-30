@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--include axios as a script tag before the App.js module for now which will add it to the global window object-->
+    <script src="https://unpkg.com/axios/dist/axios.js"></script>
+    <script type="module" src="../Apps/createProfileApp.js"></script>
+    <title>Create your Profile</title>
+    <link href="../css/createProfile.css" type="text/css" rel="stylesheet" />
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Sue+Ellen+Francisco&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <!--New Body using components-->
+  <body>
+    <!--Page Header-->
+    <h1>YOUR Favorite things</h1>
+
+    <!--navigation-->
+    <ul class="navigation">
+      <li><a href="../index.html"> Home</a></li>
+      <li><a href="login.html">Login</a></li>
+      <li><a href="../YourThings/yourThings.html">View your Things</a></li>
+      <!-- TO BE ADDED later?: Example collections-->
+    </ul>
+
+    <!--new form-->
+    <div id="app"></div>
+    <!--TO BE ADDED LATER: Already have an account section with redirection to login-->
+  </body>
+</html>
