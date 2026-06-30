@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import '../../Login/login.css';
+import '../../CSS/login.css';
 import LoginForm from '../LoginList/LoginList.jsx';
 
 export default function LoginPage() {

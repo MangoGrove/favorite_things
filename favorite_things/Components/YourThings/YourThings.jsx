@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import '../../YourThings/myThings.css';
+import '../../CSS/myThings.css';
 import ParentFavoritesList from '../Main/ParentFavoritesList.jsx';
 
 export default function YourThings() {

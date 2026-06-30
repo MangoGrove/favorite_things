@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import '../../createProfile/createProfile.css';
+import '../../CSS/createProfile.css';
 import CreateProfileForm from '../CreateProfileList/CreateProfileList.jsx';
 
 export default function CreateProfilePage() {

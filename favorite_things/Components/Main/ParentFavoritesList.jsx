@@ -1,9 +1,13 @@
 //import { html } from "https://unpkg.com/htm/preact/standalone.module.js";
 
+//having trouble louding this page specifically 
+//the other files seem to be wull placed, and connected to the adult file as it should be 
+//however this file is not loading and I am not sure why.
 import {
   useState,
   useEffect,
-} from "react"//"https://unpkg.com/htm/preact/standalone.module.js";
+} from "react"
+//"https://unpkg.com/htm/preact/standalone.module.js";
 import { getFavorites, addFavorite } from "../../Services/favorites.js";
 import ChildFavoriteItem from "./ChildFavoriteItem.jsx";
 import ChildAddFavoriteItem from "./ChildAddFavoriteItem.jsx";
