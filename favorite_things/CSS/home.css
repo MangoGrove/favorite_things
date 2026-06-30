@@ -1,0 +1,69 @@
+/***Overall styles*************************/
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #e9ffef;
+  margin: 0;
+  text-align: center;
+}
+/***title and heading styles**************/
+h1,
+h2 {
+  text-align: center;
+  font-family: "Sue Ellen Francisco", cursive;
+  font-weight: lighter;
+  font-size: 35px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+/***navigation styles***********************/
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+
+  list-style: none;
+  margin: 0;
+  background: #80ed99;
+}
+
+.navigation a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+  border-right: 1px solid #57cc99;
+}
+
+.navigation li:last-of-type a {
+  border-right: none;
+}
+
+.navigation a:hover {
+  background: #57cc99;
+}
+
+/***Tablet + phone size*********************/
+@media all and (max-width: 768px) {
+  .navigation {
+    flex-flow: column wrap;
+    padding: 0;
+  }
+
+  .navigation a {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #57cc99;
+    border-bottom: 1px solid #57cc99;
+  }
+
+  .navigation li:last-of-type a {
+    border-bottom: none;
+  }
+}
+
+h3 {
+  color: #ccc;
+}
