@@ -1,0 +1,44 @@
+[
+  {
+    "id": "u_84f9a2",
+    "username": "pixel_pioneer",
+    "password": "hashed_password_123!",
+    "profile_pic": "https://api.dicebear.com/7.x/avataaars/svg?seed=pixel_pioneer",
+    "continent": "North America"
+  },
+  {
+    "id": "u_31e4b9",
+    "username": "sakura_coder",
+    "password": "secure_pass_456#",
+    "profile_pic": "https://api.dicebear.com/7.x/avataaars/svg?seed=sakura_coder",
+    "continent": "Asia"
+  },
+  {
+    "id": "u_72c1d8",
+    "username": "fjord_explorer",
+    "password": "crypto_key_789$",
+    "profile_pic": "https://api.dicebear.com/7.x/avataaars/svg?seed=fjord_explorer",
+    "continent": "Europe"
+  },
+  {
+    "id": "u_15a8e3",
+    "username": "safari_sam",
+    "password": "wild_安全_2026",
+    "profile_pic": "https://api.dicebear.com/7.x/avataaars/svg?seed=safari_sam",
+    "continent": "Africa"
+  },
+  {
+    "id": "u_90b6c4",
+    "username": "outback_jack",
+    "password": "bungee_jump_99",
+    "profile_pic": "https://api.dicebear.com/7.x/avataaars/svg?seed=outback_jack",
+    "continent": "Oceania"
+  },
+  {
+    "id": "u_54d2f1",
+    "username": "andes_trekker",
+    "password": "summit_pass_77",
+    "profile_pic": "https://api.dicebear.com/7.x/avataaars/svg?seed=andes_trekker",
+    "continent": "South America"
+  }
+]
